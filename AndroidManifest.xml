@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.jiemi.iApp" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="21" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<application android:theme="resourceId:0x7f040000" android:label="iApp动态解密" android:icon="res/drawable-xxhdpi-v4/ic_launcher.png" android:allowBackup="true" android:resizeableActivity="true">
+		<meta-data android:name="xposedmodule" android:value="true" />
+		<meta-data android:name="xposeddescription" android:value="iApp动态解密" />
+		<meta-data android:name="xposedminversion" android:value="42+" />
+		<activity android:name=".MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>

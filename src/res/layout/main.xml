@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x31" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:layout_width="-2" android:layout_height="-2" android:text="当前包名:" />
+		<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="无" />
+	</LinearLayout>
+	<EditText android:id="false" android:layout_width="-2" android:layout_height="-2" android:hint="输入包名" android:ems="10" />
+	<Button android:layout_width="-2" android:layout_height="-2" android:text="确定" android:onClick="button" />
+	<TextView android:textAppearance="{2:16842818}" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="使用方法
+1.安装本插件Xposed中勾选重启手机
+2.输入要解密的iApp软件包名
+3.手动使用软件的所有功能(因为是动态的执行到哪里就导出那个文件)
+4.导出文件路径在/sdcard/iApp动态/(当前包名)
+
+不开放对加密打包的应用2次解密" />
+</LinearLayout>
